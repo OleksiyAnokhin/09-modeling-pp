@@ -1,0 +1,33 @@
+---
+title: "Mini HW 09 - Getting started with modeling Paris Paintings"
+author: "Mine Cetinkaya-Rundel"
+date: "October 12, 2017"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    keep_md: yes
+    theme: sandstone
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load packages
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(broom)
+```
+
+### Load data
+
+```{r load-data, message=FALSE}
+pp <- read_csv("data/paris_paintings.csv")
+```
+
+### Assignment
+
+(Add question numbers, your answers, and code chunks as needed.)
+
